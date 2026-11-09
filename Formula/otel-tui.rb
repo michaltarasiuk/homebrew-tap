@@ -1,28 +1,28 @@
 class OtelTui < Formula
   desc "Terminal app for viewing OpenTelemetry traces, metrics, and logs"
   homepage "https://github.com/michaltarasiuk/otel-tui"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.3.0/otel-tui-darwin-arm64.tar.gz"
-      sha256 "c3049587033a1506151a383eaa38e005c1ec4a6bf1b04ee0506f579818a581d2"
+      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.4.0/otel-tui-darwin-arm64.tar.gz"
+      sha256 "0f56bc61e34e52e9aab29c568cfd0997587b57d4cb4797061d2e7375654f0a4a"
     end
     on_intel do
-      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.3.0/otel-tui-darwin-x64.tar.gz"
-      sha256 "ef88bfaa76a0d9a8fc1320eed59733a73bda5d2d0924a468e05d97ea4d533014"
+      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.4.0/otel-tui-darwin-x64.tar.gz"
+      sha256 "794842ef08895ce9db49b76f8838085972d62ef09e0efff713327730814318a4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.3.0/otel-tui-linux-arm64.tar.gz"
-      sha256 "e0be8273c60c914bfdcff8f745505f35b58eeda88caff10c0fd850233c447f6a"
+      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.4.0/otel-tui-linux-arm64.tar.gz"
+      sha256 "9fc1b2c2adb71751eba73307bf89a75899a1b4df1ee57736eedea90a7bb02b3b"
     end
     on_intel do
-      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.3.0/otel-tui-linux-x64.tar.gz"
-      sha256 "d31eba25acb75bdb067b04517b217d47a04a4d427fe3a02c88ced50d7bcfe593"
+      url "https://github.com/michaltarasiuk/otel-tui/releases/download/v0.4.0/otel-tui-linux-x64.tar.gz"
+      sha256 "a8cb2b71f9c51ee7e12a6c3c4e557a8639a06a50f6448882d2e5f801a2cf6683"
     end
   end
 
